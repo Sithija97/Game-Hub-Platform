@@ -1,0 +1,6 @@
+appBar: AppBar(
+        title: Text("Fluter Basics",
+        style: TextStyle(color: Color(4278190080))), //colorchanging property
+        centerTitle: true,
+        backgroundColor: Colors.indigoAccent,
+      ),
