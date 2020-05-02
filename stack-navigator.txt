@@ -1,0 +1,12 @@
+
+//function before return
+void navigate(){
+      Navigator.push(context, MaterialPageRoute(builder: (context)=>Second()));//stack-navigator
+    }
+
+//button
+floatingActionButton: FloatingActionButton(
+        onPressed: navigate,
+        child: Icon(Icons.navigation),
+        backgroundColor: Colors.black87,),
+    );
