@@ -1,0 +1,8 @@
+
+appBar: AppBar(
+        //leading: IconButton(icon: Icon(Icons.menu), onPressed: () {}),//drawerIcon
+        title: Text("Fluter Basics",
+        style: TextStyle(color: Color(4278190080))),
+        centerTitle: true,
+        backgroundColor: Colors.indigoAccent,
+      ),
