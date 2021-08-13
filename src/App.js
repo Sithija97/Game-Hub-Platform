@@ -1,13 +1,14 @@
-import "./App.css";
+import React, { Component } from "react";
+import Admin from "./components/screens/Admin";
+import Home from "./components/screens/Home";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h3>AiDRevs App</h3>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <>
+        <Home />
+        {/* <Admin /> */}
+      </>
+    );
+  }
 }
-
-export default App;
