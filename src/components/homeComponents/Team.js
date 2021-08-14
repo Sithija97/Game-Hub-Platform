@@ -5,7 +5,7 @@ function Team() {
     <>
       <div className="container" data-aos="fade-up">
         <div className="section-header">
-          <h3>Team</h3>
+          <h3>Partners</h3>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque

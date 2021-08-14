@@ -11,6 +11,7 @@ import Contacts from "../homeComponents/Contact";
 import Testimonial from "../homeComponents/Testimonial";
 import Footer from "../homeComponents/Footer";
 import IntroVideo from "../homeComponents/IntroVideo";
+import PricingTable from "../homeComponents/PricingTable";
 
 function Home() {
   return (
@@ -21,20 +22,23 @@ function Home() {
       </section>
       <IntroHero />,
       <AboutUs />,
-      {/* <section id="services" className="section-bg">
+      {/* <section id="team">
+        <Team />
+      </section>
+      <section id="services" className="section-bg">
         <Services />
-      </section> */}
-      {/* <section id="why-us">
+      </section>
+      <section id="pricing" className="clearfix">
+        <PricingTable />
+      </section>
+      <section id="why-us">
         <Reason />
       </section>
-      <section id="portfolio" className="clearfix">
-        <Portfolio />
-      </section> */}
       <section id="testimonials" className="section-bg">
         <Testimonial />
       </section>
-      {/* <section id="team">
-        <Team />
+      <section id="portfolio" className="clearfix">
+        <Portfolio />
       </section>
       <section id="clients" className="section-bg">
         <Clients />

@@ -5,7 +5,7 @@ function Services() {
     <>
       <div className="container" data-aos="fade-up">
         <header className="section-header">
-          <h3>Services</h3>
+          <h3>Products</h3>
           <p>
             Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
             partiendo abhorreant vituperatoribus.

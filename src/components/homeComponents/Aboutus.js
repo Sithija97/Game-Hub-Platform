@@ -13,8 +13,8 @@ function AboutUs() {
             </p>
           </header>
 
-          <div className="row about-container">
-            {/* <div className="col-lg-6 content order-lg-1 order-2">
+          {/* <div className="row about-container">
+              <div className="col-lg-6 content order-lg-1 order-2">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -72,80 +72,84 @@ function AboutUs() {
                     ut aliquip ex ea commodo consequat tarad limino ata
                   </p>
                 </div>
-              </div> */}
+              </div>
 
-            {/* <div className="col-lg-6 background order-lg-2" data-aos="zoom-in">
-              <img
-                src="assets/img/about-img.svg"
-                className="img-fluid"
-                alt=""
-              />
+              <div
+                className="col-lg-6 background order-lg-2"
+                data-aos="zoom-in"
+              >
+                <img
+                  src="assets/img/about-img.svg"
+                  className="img-fluid"
+                  alt=""
+                />
+              </div>
             </div> */}
-          </div>
 
-          <div className="row about-extra">
-            <div className="col-lg-6" data-aos="fade-right">
-              <img
-                src="assets/img/about-extra-1.svg"
-                className="img-fluid"
-                alt=""
-              />
+          {/* <div className="row about-extra">
+              <div className="col-lg-6" data-aos="fade-right">
+                <img
+                  src="assets/img/about-extra-1.svg"
+                  className="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div className="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
+                <h4>
+                  Voluptatem dignissimos provident quasi corporis voluptates sit
+                  assumenda.
+                </h4>
+                <p>
+                  Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati
+                  possimus ea. Quas molestiae perspiciatis occaecati qui rerum.
+                  Deleniti quod porro sed quisquam saepe. Numquam mollitia
+                  recusandae non ad at et a.
+                </p>
+                <p>
+                  Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti.
+                  Odit qui asperiores ea corporis deserunt veritatis quidem
+                  expedita perferendis. Qui rerum eligendi ex doloribus quia
+                  sit. Porro rerum eum eum.
+                </p>
+              </div>
             </div>
-            <div className="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
-              <h4>
-                Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati
-                possimus ea
-              </h4>
-              <p>
-                Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati
-                possimus ea. Quas molestiae perspiciatis occaecati qui rerum.
-                Deleniti quod porro sed quisquam saepe. Numquam mollitia
-                recusandae non ad at et a.
-              </p>
-              <p>
-                Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti.
-                Odit qui asperiores ea corporis deserunt veritatis quidem
-                expedita perferendis. Qui rerum eligendi ex doloribus quia sit.
-                Porro rerum eum eum.
-              </p>
-            </div>
-          </div>
 
-          <div className="row about-extra">
-            {/* <div className="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-              <img
-                src="assets/img/about-extra-2.svg"
-                className="img-fluid"
-                alt=""
-              />
-            </div> */}
+            <div className="row about-extra">
+              <div className="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+                <img
+                  src="assets/img/about-extra-2.svg"
+                  className="img-fluid"
+                  alt=""
+                />
+              </div>
 
-            {/* <div
-              className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1"
-              data-aos="fade-right"
-            >
-              <h4>
-                Neque saepe temporibus repellat ea ipsum et. Id vel et quia
-                tempora facere reprehenderit.
-              </h4>
-              <p>
-                Delectus alias ut incidunt delectus nam placeat in consequatur.
-                Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio.
-                Cumque fugit earum est quam officiis numquam. Ducimus corporis
-                autem at blanditiis beatae incidunt sunt.
-              </p>
-              <p>
-                Voluptas saepe natus quidem blanditiis. Non sunt impedit
-                voluptas mollitia beatae. Qui esse molestias. Laudantium libero
-                nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
-              </p>
-              <p>
-                Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore
-                sint quia modi. Numquam est aut fuga mollitia exercitationem nam
-                accusantium provident quia.
-              </p>
-            </div> */}
-          </div>
+              <div
+                className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1"
+                data-aos="fade-right"
+              >
+                <h4>
+                  Neque saepe temporibus repellat ea ipsum et. Id vel et quia
+                  tempora facere reprehenderit.
+                </h4>
+                <p>
+                  Delectus alias ut incidunt delectus nam placeat in
+                  consequatur. Sed cupiditate quia ea quis. Voluptas nemo qui
+                  aut distinctio. Cumque fugit earum est quam officiis numquam.
+                  Ducimus corporis autem at blanditiis beatae incidunt sunt.
+                </p>
+                <p>
+                  Voluptas saepe natus quidem blanditiis. Non sunt impedit
+                  voluptas mollitia beatae. Qui esse molestias. Laudantium
+                  libero nisi vitae debitis. Dolorem cupiditate est perferendis
+                  iusto.
+                </p>
+                <p>
+                  Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore
+                  sint quia modi. Numquam est aut fuga mollitia exercitationem
+                  nam accusantium provident quia.
+                </p>
+              </div> 
+            </div>*/}
         </div>
       </section>
     </>

@@ -1,11 +1,65 @@
 import React from "react";
+import ReactPlayer from 'react-player'
 
 function IntroVideo() {
   return (
     <>
-      <header style={{ marginBottom: "-10px" }}>
+      <header style={{ marginTop: "20px", marginBottom:"-30px"}}>
+
+    return (
+      <div className='player-wrapper'>
+        <ReactPlayer
+          className='react-player'
+          url='https://www.youtube.com/watch?v=Q7hcnCUM-hw'
+          width='100%'
+          height='100%'
+          playing={true}
+          muted={true}
+          loop={true}
+          controls={false}
+
+        />
+      </div>
+    )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         {/* <div className="overlay"></div> */}
-        <section >
+        {/* <section >
           <div id="video" className="video" data-aos="zoom-out" data-aos-delay="200">
         <video
           playsinline="playsinline"
@@ -19,7 +73,7 @@ function IntroVideo() {
           />
         </video>
         </div>
-        </section>
+        </section> */}
 
         {/* <div className="container h-100">
           <div className="d-flex h-100 text-center align-items-center">
