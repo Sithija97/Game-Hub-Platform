@@ -13,11 +13,16 @@ function Admin() {
           <div id="content-wrapper" class="d-flex flex-column">
             <div id="content">
               <NavBar />
-              <div class="container-fluid">
-                <CardsSection />
-                {/*start */}
+              <div
+                class="container-fluid"
+                style={{
+                  // background: "blue",
+                  // maxHeight: "44rem",
+                  height:"100vh",
+                  overflow: "scroll",
+                }}
+              >
                 <ChartContainer />
-                {/*end */}
               </div>
             </div>
           </div>

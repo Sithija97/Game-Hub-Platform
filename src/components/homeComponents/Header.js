@@ -26,20 +26,20 @@ function Header() {
                 </li>
                 <li>
                   <a className="nav-link scrollto" href="#services">
-                    Features
+                    Services
                   </a>
                 </li>
                 <li>
                   <a className="nav-link scrollto " href="#portfolio">
-                    SmartPOS
+                    Portfolio
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a className="nav-link scrollto" href="#team">
                     Team
                   </a>
-                </li> */}
-                {/* <li className="dropdown">
+                </li>
+                <li className="dropdown">
                   <a href="#">
                     <span>Drop Down</span>{" "}
                     <i className="bi bi-chevron-down"></i>
@@ -81,10 +81,10 @@ function Header() {
                       <a href="#">Drop Down 4</a>
                     </li>
                   </ul>
-                </li> */}
+                </li>
                 <li>
                   <a className="nav-link scrollto" href="#contact">
-                    Console
+                    Contact
                   </a>
                 </li>
               </ul>
@@ -94,20 +94,20 @@ function Header() {
 
           <div className="nav-item dropdown no-arrow">
             <a
-              className="nav-link dropdown-toggle"
-              href="#"
-              id="userDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
+               className="nav-link dropdown-toggle"
+               href="#"
+               id="userDropdown"
+               role="button"
+               data-toggle="dropdown"
+               aria-haspopup="true"
+               aria-expanded="false"
             >
               <i className="bi bi-list mobile-nav-toggle"></i>
             </a>
 
             <div
-              className="dropdown-menu dropdown-menu-right"
-              aria-labelledby="userDropdown"
+             className="dropdown-menu dropdown-menu-right"
+             aria-labelledby="userDropdown"
             >
               <a className="dropdown-item" href="#hero">
                 <i className="fa-fw mr-2 text-gray-400"></i>

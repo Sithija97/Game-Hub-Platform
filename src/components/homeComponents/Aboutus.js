@@ -3,17 +3,17 @@ import React from "react";
 function AboutUs() {
   return (
     <>
-      <section id="about">
-        <div className="container" data-aos="fade-up">
-          <header className="section-header">
-            <h3>About Us</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </header>
+       <section id="about">
+          <div className="container" data-aos="fade-up">
+            <header className="section-header">
+              <h3>About Us</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </header>
 
-          {/* <div className="row about-container">
+            <div className="row about-container">
               <div className="col-lg-6 content order-lg-1 order-2">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -84,9 +84,9 @@ function AboutUs() {
                   alt=""
                 />
               </div>
-            </div> */}
+            </div>
 
-          {/* <div className="row about-extra">
+            <div className="row about-extra">
               <div className="col-lg-6" data-aos="fade-right">
                 <img
                   src="assets/img/about-extra-1.svg"
@@ -148,10 +148,11 @@ function AboutUs() {
                   sint quia modi. Numquam est aut fuga mollitia exercitationem
                   nam accusantium provident quia.
                 </p>
-              </div> 
-            </div>*/}
-        </div>
-      </section>
+              </div>
+            </div>
+          </div>
+        </section>
+
     </>
   );
 }

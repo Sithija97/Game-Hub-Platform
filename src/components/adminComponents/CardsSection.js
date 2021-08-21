@@ -4,7 +4,7 @@ function CardsSection() {
   return (
     <>
       <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+        <h1 class="h3 mb-0 text-gray-900 font-weight-bold">Sales Summary</h1>
       </div>
       <div class="row">
         <div class="col-xl-3 col-md-6 mb-4">

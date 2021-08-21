@@ -22,7 +22,7 @@ function Home() {
       </section>
       <IntroHero />,
       <AboutUs />,
-      {/* <section id="team">
+      <section id="team">
         <Team />
       </section>
       <section id="services" className="section-bg">
@@ -46,7 +46,7 @@ function Home() {
       <section id="contact">
         <Contacts />
       </section>
-      <Footer /> */}
+      <Footer />
       <a
         href="#"
         className="back-to-top d-flex align-items-center justify-content-center"
