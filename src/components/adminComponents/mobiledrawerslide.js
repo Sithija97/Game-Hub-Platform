@@ -1,22 +1,18 @@
 import React from "react";
 
-function Slider() {
+function MobileleftSlider() {
   return (
     <>
-      <ul
-        className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
-        id="accordionSidebar"
-      >
-        <a
-          className="sidebar-brand d-flex align-items-center justify-content-center"
-          href="index.html"
-        >
-          <div className="sidebar-brand-icon align-items-center justify-content-center mx-4 pr-2">
-            <img src="img/logo.png" alt="" className="img-fluid" />
+      <ul className="mr-3">
+        <li>
+          {" "}
+          <div className="mx-4 mr-5">
+            <a href="index.html">
+              <img src="assets/img/logo.png" alt="" className="img-fluid" />
+            </a>
           </div>
-        </a>
-
-        <hr className="sidebar-divider my-0" />
+        </li>
+        <hr className="sidebar-divider my-0 mt-2" />
         <li className="nav-item">
           <a
             className="nav-link collapsed"
@@ -29,6 +25,7 @@ function Slider() {
             <img
               className="img-profile rounded-circle mr-2"
               src="img/undraw_profile.svg"
+              style={{ height: "40px" }}
             />
 
             <span className="font-weight-bold">
@@ -74,11 +71,18 @@ function Slider() {
         <div className="sidebar-heading">Informations</div>
 
         <li className="nav-item">
-          <a className="nav-link collapsed" href="#">
+          <a
+            className="nav-link collapsed"
+            href="#"
+            // data-toggle="collapse"
+            // data-target="#collapseTwo"
+            // aria-expanded="true"
+            // aria-controls="collapseTwo"
+          >
             <i className="fas fa-laugh-wink"></i>
 
             <span className="font-weight-bold">
-              <text className="text-truncate">PORTFOLIO</text>
+              <text className="text-truncate ml-2">PORTFOLIO</text>
             </span>
           </a>
           <div
@@ -111,7 +115,7 @@ function Slider() {
             <i className="fas fa-fw fa-table"></i>
 
             <span className="font-weight-bold">
-              <text className="text-truncate">INVENTORY</text>
+              <text className="text-truncate ml-2">INVENTORY</text>
             </span>
           </a>
           <div
@@ -122,7 +126,10 @@ function Slider() {
           >
             <div className="bg-white py-2 collapse-inner rounded">
               <h6 className="collapse-header">Custom Inventories:</h6>
-              <a className="collapse-item" href="utilities-color.html">
+              <a
+                className="collapse-item font-weight-bold text-dark"
+                href="utilities-color.html"
+              >
                 Stocks
               </a>
             </div>
@@ -145,7 +152,7 @@ function Slider() {
             <i className="fas fa-fw fa-folder"></i>
 
             <span className="font-weight-bold">
-              <text className="text-truncate">SALES</text>
+              <text className="text-truncate ml-2">SALES</text>
             </span>
           </a>
           <div
@@ -156,10 +163,16 @@ function Slider() {
           >
             <div className="bg-white py-2 collapse-inner rounded">
               <h6 className="collapse-header">Sales Details:</h6>
-              <a className="collapse-item font-weight-bold" href="login.html">
+              <a
+                className="collapse-item font-weight-bold text-dark"
+                href="login.html"
+              >
                 Details
               </a>
-              <a className="collapse-item font-weight-bold" href="register.html">
+              <a
+                className="collapse-item font-weight-bold text-dark"
+                href="register.html"
+              >
                 Credit Sales
               </a>
             </div>
@@ -178,7 +191,7 @@ function Slider() {
             <i className="fas fa-fw fa-chart-area"></i>
 
             <span className="font-weight-bold">
-              <text className="text-truncate">PURCHASE</text>
+              <text className="text-truncate ml-2">PURCHASE</text>
             </span>
           </a>
           <div
@@ -189,10 +202,16 @@ function Slider() {
           >
             <div className="bg-white py-2 collapse-inner rounded">
               <h6 className="collapse-header">Purchase Details:</h6>
-              <a className="collapse-item font-weight-bold" href="login.html">
+              <a
+                className="collapse-item font-weight-bold text-dark"
+                href="login.html"
+              >
                 Details
               </a>
-              <a className="collapse-item font-weight-bold" href="register.html">
+              <a
+                className="collapse-item font-weight-bold text-dark"
+                href="register.html"
+              >
                 History
               </a>
               <div className="collapse-divider"></div>
@@ -212,7 +231,7 @@ function Slider() {
             <i className="fas fa-donate "></i>
 
             <span className="font-weight-bold">
-              <text className="text-truncate">ACCOUNTING</text>
+              <text className="text-truncate ml-2">ACCOUNTING</text>
             </span>
           </a>
           <div
@@ -223,14 +242,20 @@ function Slider() {
           >
             <div className="bg-white py-2 collapse-inner rounded">
               <h6 className="collapse-header">Accounts Details:</h6>
-              <a className="collapse-item font-weight-bold" href="login.html">
+              <a
+                className="collapse-item font-weight-bold text-dark"
+                href="login.html"
+              >
                 Sales
               </a>
-              <a className="collapse-item font-weight-bold" href="register.html">
+              <a
+                className="collapse-item font-weight-bold text-dark"
+                href="register.html"
+              >
                 Purchase
               </a>
               <a
-                className="collapse-item font-weight-bold"
+                className="collapse-item font-weight-bold text-dark"
                 href="forgot-password.html"
               >
                 Other Reports
@@ -251,7 +276,7 @@ function Slider() {
             <i className="fas fa-flag"></i>
 
             <span className="font-weight-bold">
-              <text className="text-truncate">STAKEHOLDERS</text>
+              <text className="text-truncate ml-2">STAKEHOLDERS</text>
             </span>
           </a>
           <div
@@ -262,14 +287,20 @@ function Slider() {
           >
             <div className="bg-white py-2 collapse-inner rounded">
               <h6 className="collapse-header">Monitize Informations:</h6>
-              <a className="collapse-item font-weight-bold" href="login.html">
+              <a
+                className="collapse-item font-weight-bold text-dark"
+                href="login.html"
+              >
                 Suppliers
               </a>
-              <a className="collapse-item font-weight-bold" href="register.html">
+              <a
+                className="collapse-item font-weight-bold text-dark"
+                href="register.html"
+              >
                 Customers
               </a>
               <a
-                className="collapse-item font-weight-bold"
+                className="collapse-item font-weight-bold text-dark"
                 href="forgot-password.html"
               >
                 Collaborators
@@ -279,11 +310,18 @@ function Slider() {
         </li>
 
         <li className="nav-item">
-          <a className="nav-link collapsed" href="#">
+          <a
+            className="nav-link collapsed"
+            href="#"
+            // data-toggle="collapse"
+            // data-target="#collapseProtree"
+            // aria-expanded="true"
+            // aria-controls="collapseProtree"
+          >
             <i className="fas fa-info-circle"></i>
 
             <span className="font-weight-bold">
-              <text className="text-truncate">PRODUCT TREE</text>
+              <text className="text-truncate ml-2">PRODUCT TREE</text>
             </span>
           </a>
           <div
@@ -321,4 +359,4 @@ function Slider() {
   );
 }
 
-export default Slider;
+export default MobileleftSlider;
