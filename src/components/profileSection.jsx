@@ -8,28 +8,31 @@ const ProfileSection = (props) => {
   const { user } = useAuth();
   return (
     <React.Fragment>
-      <Box
-        className="boxStyles"
-        sx={{
-          width: 280,
-          height: 275,
-          bgcolor: "#fff",
-        }}
-      >
+   
         <div>
           <Avatar
+          id="myDropdown" class="dropdown-content"
+          onClick={props.handleLoggedOut}
+          style={{ cursor: "pointer" }}
             style={{
-              margin: "auto",
+              position: "absolute",
+              right: 25,
               top: "30px",
             }}
             alt="Remy Sharp"
             src={user && user.photoURL}
-            sx={{ width: 140, height: 140 }}
+            sx={{ width: 70, height: 70 }}
           />
-          <Box ml={3} className="profileName">
-            {user && user.displayName}
+
+          <Box ml={3} className="profileName" 
+         style={{
+          position: "absolute",
+          right: 5,
+          top: "30px",
+        }}>
+            {/* {user && user.displayName} */}
             <br />
-            {user && user.email} <br />
+            {/* {user && user.email} <br /> */}
             <Box style={{ cursor: "pointer" }} onClick={props.handleLoggedOut}>
               logout
               <IconButton>
@@ -38,7 +41,6 @@ const ProfileSection = (props) => {
             </Box>
           </Box>
         </div>
-      </Box>
     </React.Fragment>
   );
 };

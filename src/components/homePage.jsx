@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import { auth, db } from "../firebase";
 import { useAuth } from "../context/authContext";
 
-import { Box } from "@mui/system";
+import { borderLeft, Box, fontSize } from "@mui/system";
 import DataTable from "./dataTable";
 import { Fab, ListItem } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
@@ -141,31 +141,84 @@ const HomePage = () => {
 
   return (
     <React.Fragment>
-      <Box py={18} className="headerBox" color="white"></Box>
-      <Grid container justifyContent="center">
-        <Grid item xs={10}>
-          <Box p={2} mt={-30} mb={2} className="wrapper">
-            <Container maxWidth="xl">
-              <Container maxWidth="lg">
-                <Grid container spacing={2}>
-                  <Grid item xs={6} md={8}>
-                    <ListItem>
-                      <Income categories={category} />
-                      <Expense categories={category} />
-                      <Saving categories={category} />
-                    </ListItem>
-                    <ListItem>
-                      <DataTable events={events} />
-                    </ListItem>
-                  </Grid>
-                  <Grid item xs={6} md={4} display="table-column">
-                    <ListItem>
-                      <ProfileSection handleLoggedOut={handleLoggedOut} />
-                    </ListItem>
-                    <ListItem>
-                      <FeaturesSection />
-                    </ListItem>
-                    <Box sx={{ "& > :not(style)": { m: 1 } }}>
+<div class="header">
+  <h1 style={{ }}>Money Manager</h1>
+</div>
+
+
+<div class="navbar"  style={{ backgroundColor: "transparent", alignContent:"center", alignItems:"center" }}>
+<Income categories={category} />
+<Expense categories={category} />
+<Saving categories={category} />
+<FeaturesSection />
+<ProfileSection handleLoggedOut={handleLoggedOut} />
+
+</div>
+  <div class="row">
+        <div class="column" style={{ backgroundColor: "white" }}>
+          <ListItem>
+            <img src="images/img2.jpg" alt="" className="loginImg" />
+          </ListItem>
+        </div>
+
+        <div class="column" style={{ backgroundColor: "#d63031" }}>
+          <Box
+            className="boxStyles loginContainer"
+            sx={{
+              width: 350,
+              height: 350,
+              bgcolor: "#d63031",
+            }}
+          >
+            <p className="loginTitle">Today Updates..</p>
+
+            <div style={{ padding: "30px" }}>
+            <h5 style={{ color: "white"}}>Income Details, Dec 7, 2017</h5>
+            <h5 style={{ color: "white"}}>Expenses Details, Dec 7, 2017</h5>
+            <h5 style={{ color: "white"}}>Savings Details, Dec 7, 2017</h5>
+            <br/>
+            <h5 style={{color: "white", fontWeight:"bold", fontSize: 20}}>Total Details, Dec 7, 2017</h5>
+            </div>
+          </Box>
+        </div>
+      </div>
+
+      <div class="row">
+ 
+  
+
+  <div class="main"  style={{ backgroundColor: "#d63031",  }} >
+    <h2 style={{ color: "white", fontWeight:"bold", fontSize: 20}} >{user && user.displayName}</h2>
+    <h5 style={{ color: "white"}}>Currency Details, Dec 7, 2017</h5>
+    <div style={{
+    
+              marginLeft: 10,
+            }}>    <DataTable events={events} /></div>
+
+  </div>
+
+
+
+    </div>
+
+<div class="footer">
+  <h2>Sithija (Pvt) Ltd</h2>
+  
+</div>
+
+    
+      {/* <img src="images/img1.png" alt="" className="homeImg" /> */}
+
+<div class="fixed">
+<Box 
+  style={{
+              position: "absolute",
+              left: -320,
+              bottom:20
+
+        
+    
+            }}>
                       <Fab
                         color="secondary"
                         className="addButton"
@@ -179,14 +232,9 @@ const HomePage = () => {
                       handleClose={handleClose}
                       postData={postData}
                     />
-                  </Grid>
-                </Grid>
-              </Container>
-            </Container>
-          </Box>
-        </Grid>
-      </Grid>
-      <img src="images/img1.png" alt="" className="homeImg" />
+  
+  </div>
+
     </React.Fragment>
   );
 };
